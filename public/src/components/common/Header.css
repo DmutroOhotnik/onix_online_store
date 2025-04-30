@@ -1,0 +1,55 @@
+header .logo {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+header ul.navigation {
+    float: right;
+    list-style: none;
+    font-size: 18px;
+}
+
+header ul.navigation li {
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+    transition: opacity 500ms ease;
+}
+
+header ul.navigation li a {
+    text-decoration: none;
+    color: black;
+}
+
+header ul.navigation li:hover {
+    opacity: 0.5;
+}
+
+header .shop-bag-button {
+    float: right;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+}
+
+header .shop-bag-button:hover,
+header .shop-bag-button.active {
+    color: #dc3d3d;
+    transform: scale(1.5);
+}
+
+header .shop-bag {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 450px;
+    background: #fafafa;
+    -webkit-box-shadow: 4px 5px 15px -7px #606060;
+    box-shadow: 4px 5px 15px -7px #606060;
+    z-index: 1000;
+    padding: 20px 20px 0;
+}
+
+header hr{
+    color: silver;
+    margin-top: 10px;
+}

@@ -1,0 +1,110 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+/*All object styles*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#root {
+    overflow: hidden;
+}
+
+/*App styles*/
+header {
+    position: relative;
+}
+
+.wrapper {
+    width: 1280px;
+    margin: 50px auto 20px;
+}
+
+/*Body styles*/
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+main .item {
+    width: 30%;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 1.66% 50px;
+}
+
+main .item .image-container {
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid black;
+}
+
+main .item img {
+    width: 100%;
+    transition: transform 500ms ease;
+}
+
+main .item img:hover {
+    transform: scale(1.05);
+}
+
+main h2, main p, main b {
+    margin: 10px 20px;
+    color: #333;
+}
+
+main p, main b {
+    font-size: 20px;
+}
+
+main b {
+    color: #5fa365;
+}
+
+main a {
+    text-decoration: none;
+}
+
+main .add-to-cart {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: #ca5252;
+    width: auto;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    border: 10px;
+    cursor: pointer;
+    padding: 3px;
+    transition: transform 500ms ease;
+}
+
+main .add-to-cart:hover {
+    transform: scale(1.3) translateY(-5px);
+}
+
+/*Error page*/
+.page-not-found {
+    height:20em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+}

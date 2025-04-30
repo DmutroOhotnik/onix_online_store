@@ -1,0 +1,63 @@
+header .shop-bag .item {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+header .shop-bag .item img {
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+}
+
+header .shop-bag .item h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+header .shop-bag .item p {
+    color: #797979;
+    font-weight: 600;
+}
+
+header .shop-bag .empty h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+header .shop-bag .item .delete-icon {
+    color: #dc3d3d;
+    float: right;
+    position: relative;
+    top: -20px;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+}
+
+header .shop-bag .item .delete-icon:hover {
+    color: #dc2a2a;
+    transform: scale(1.4);
+}
+
+header .shop-bag .sum {
+    float: left;
+    width: 60%;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+header .shop-bag a{
+    float: right;
+    width: 30%;
+    border: 1px solid rgb(50 112 14);
+    background: rgb(71 169 12);
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    text-decoration: none;
+}

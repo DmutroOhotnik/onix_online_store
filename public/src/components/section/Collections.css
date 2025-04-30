@@ -1,0 +1,38 @@
+.collections div {
+    display: inline-block;
+    background: #f2f2f2;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 500ms ease;
+    font-size: 18px;
+}
+
+.collections div:hover {
+    border-color: silver;
+    transform: scale(1.1);
+}
+
+.presentation {
+    margin: 25px 0;
+    width: 100%;
+    height: 500px;
+    background: url('../../images/setty_1340_x800.webp') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.presentation:after {
+    content: 'Ексклюзивні вироби';
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    font-size: 42px;
+    font-weight: 600;
+    color: #fffff0;
+    filter: drop-shadow(0 0 4px rgb(128, 128, 128));
+}

@@ -1,0 +1,130 @@
+.sign-in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-in .heading{
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 600;
+    width: 10%;
+    color: black;
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid silver;
+}
+
+.sign-in .registration-link{
+    display: inline-block;
+    font-size: 20px;
+    width: 100%;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sign-in .registration-link a{
+    color: black;
+    text-decoration: underline black;
+    transition: color 500ms ease;
+}
+
+.sign-in .registration-link a:hover{
+    text-decoration: none;
+    color: #acacac;
+}
+
+.sign-in .data-entering{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+.sign-in .data-entering input{
+    display: block;
+    width: 100%;
+    height: 47px;
+    margin-bottom: 14px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000000;
+    color: black;
+    letter-spacing: 0.02em;
+    font-size: 18px;
+}
+
+.sign-in .submit-button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.sign-in .submit-button button{
+    /* wrap */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    letter-spacing: normal;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 35px auto 0;
+
+    /* btn */
+    width: 100%;
+    font-weight: 300;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 0;
+    cursor: pointer;
+    user-select: none;
+
+    border: 1px solid transparent;
+    color: white;
+    background: black;
+
+    transition: color, background-color 500ms ease;
+}
+
+.sign-in .submit-button button:hover{
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+
+/*Error*/
+.data-entering div{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+}
+
+.data-entering div p{
+    font-size: 12px;
+    color: red;
+    margin-top: -10px;
+}
+
+.data-entering input .error::placeholder {
+    color: red;
+}
+
+.data-entering .general-error{
+    width: 80%;
+    border: 1px dashed red;
+    font-size: 16px;
+    color: #830000;
+    background: #fa8282;
+    padding: 5px;
+    margin: 10px auto 20px;
+}

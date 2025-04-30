@@ -1,0 +1,184 @@
+.contacts{
+    padding-top: 20px;
+}
+
+.contacts .contacts-banners{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 80px;
+}
+
+.contacts-banners .contacts-banner{
+    width: 50.1%;
+    padding: 79px 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+.contacts-banners .img1{
+    position: relative;
+    background-image: url("../../../images/Contacts/contact-banner.jpg");
+}
+
+.contacts-banners .img2{
+    position: relative;
+    background-image: url("../../../images/Contacts/contact-banner2.jpg");
+}
+
+.contacts-banners .img2:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 74, 56, 0.5);
+}
+
+.contacts-banners .img1:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 74, 56, 0.5);
+}
+
+.contacts-banner .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    color: #FFFFFF;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 60px;
+}
+
+.contacts-banner .heading:after{
+    content: '';
+    width: 63px;
+    height: 2px;
+    display: block;
+    background: #F3C47F;
+    margin: 11px auto 0;
+}
+
+.contacts-banner .phone-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.contacts-banner .email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.contacts .feedback{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feedback .feedback-heading{
+    text-align: center;
+    margin-bottom: 20px;
+
+    color: #000000;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.feedback .feedback-form{
+    width: 100%;
+    max-width: 60%;
+    margin: 0 auto 40px;
+}
+
+.feedback .user-inputs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback .user-inputs input{
+    display: block;
+    width: 49%;
+    height: 38px;
+    margin-bottom: 14px;
+    text-align: center;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000000;
+    color: #000;
+    letter-spacing: 0.02em;
+    font-size: 14px;
+}
+
+.feedback textarea{
+    display: block;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 14px;
+    text-align: center;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000000;
+    color: #000;
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    resize: none;
+}
+
+.feedback button{
+    /* wrap */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    letter-spacing: normal;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 35px auto 0;
+
+    /* btn */
+    width: 45%;
+    font-weight: 300;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 0;
+    cursor: pointer;
+    user-select: none;
+
+    border: none;
+    color: white;
+    background: black;
+}
