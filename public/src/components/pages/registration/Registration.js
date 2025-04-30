@@ -37,7 +37,7 @@ const Registration = ({users, setCurrentUser, createUser}) => {
             } else {
                 console.log("Форма подана успішно:", values);
                 const user = {
-                    id: users[users.length - 1].id + 1,
+                    id: users.length === 0 ? 1 : users[users.length - 1].id + 1,
                     username: values.username,
                     password: values.password,
                     email: values.email,
