@@ -40,5 +40,19 @@
     "productsId": [
       2
     ]
+  },
+  {
+    "orderId": "74827db1-ad0f-45f7-a0b9-cab97edee97b",
+    "username": "addhgfdjhjffdgfdsf",
+    "email": "alloua20072017@gmail.com",
+    "cardNumber": "",
+    "phoneNumber": "dsshdfgjffdjsgdf",
+    "deliveryMethod": "courier",
+    "paymentMethod": "cash",
+    "city": "dafesyrdjtfkygh",
+    "address": "asadghgfjfkgk",
+    "productsId": [
+      5
+    ]
   }
 ]
